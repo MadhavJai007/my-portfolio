@@ -4,17 +4,21 @@ import { getTasksTextWithHighlightedKeyword } from "./taskAndType";
 export default function FeverTokens() {
   const tasks = [
     {
-      text: "Leading the development of the NFT Marketplace v2 for the Platform FeverTokens.",
-      keywords: ["NFT Marketplace v2"],
+      text: "Developed a solution with React.js, AWS and Twilio APIs to send notification campaigns to the company's 50+ clients.",
+      keywords: ["React.js", "AWS", "Twilio"],
     },
     {
-      text: "Worked with a team of six developers to build a temporary NFT Marketplace platform for VivaTech2022 event, an ambitious startup originating from France,Paris.",
-      keywords: ["VivaTech2022 event"],
+      text: "Developed React.js website to manage the notification system and the 1000+ healthcare workers it sends them to daily.",
+      keywords: ["React.js", "notification system"],
     },
     {
-      text: "Interacted with the blockchain & Smart Contracts to build the new FeverTokens Platform.",
-      keywords: ["blockchain & Smart Contracts"],
+      text: "Ensured a successful integration of the system for internal use within the company.",
+      keywords: ["successful integration"],
     },
+    {
+      text: "Developed an automated email system using Twilio to generate daily performance reports of the notification campaigns",
+      keywords: ["Twilio", "performace reports"]
+    }
   ];
   return (
     <>
@@ -22,10 +26,10 @@ export default function FeverTokens() {
         <div className="flex flex-col spacey-y-2">
           {/* Title */}
           <span className="text-gray-100 sm:text-lg text-sm font-Arimo tracking-wide">
-            Software Engineer <span className="text-AAsecondary">@ web3</span>
+            Mobile Application Developer <span className="text-AAsecondary">@ Nevvon</span>
           </span>
           {/* Date */}
-          <span className="font-mono text-xs text-gray-500">Mars - August 2022</span>
+          <span className="font-mono text-xs text-gray-500">May 2021 - December 2021</span>
         </div>
         <div className="flex flex-col space-y-4 sm:text-sm text-xs">
             {/* Tasks Description 1 */}

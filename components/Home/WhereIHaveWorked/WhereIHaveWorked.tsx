@@ -13,11 +13,11 @@ export default function WhereIHaveWorked() {
   // ? INFORMATIONAL the default value of barRef's class should be at the beginning translate-y-[0px]
   const GetDescription = () => {
     switch (DescriptionJob) {
-      case "TrouveTavoie":
+      case "Cloud DX":
         return <TrouveTavoie />;
-      case "FeverTokens":
+      case "Nevvon":
         return <FeverTokens />;
-      case "IdealFresh":
+      case "Nevvon 1":
         return <IdealFresh />;
       case "Advanced Agro Management":
         return <AdvancedAgroManagement />;
@@ -27,7 +27,7 @@ export default function WhereIHaveWorked() {
         return <SuperBerry />;
     }
   };
-  const [DescriptionJob, setDescriptionJob] = React.useState("TrouveTavoie");
+  const [DescriptionJob, setDescriptionJob] = React.useState("Cloud DX");
   return (
     <div data-aos="fade-up" className="flex flex-col items-center justify-center py-24 space-y-12 bg-AAprimary">
       {/* // ? Title "Where I've Worked" */}
@@ -37,7 +37,7 @@ export default function WhereIHaveWorked() {
           <span className="text-AAsecondary font-sans text-sm  sm:text-xl"> 02.</span>
         </div>
 
-        <span className="text-gray-200 opacity-85 font-bold tracking-wider text-lg md:text-2xl px-3">
+        <span className="text-gray-200 opacity-85 font-bold  tracking-wider text-lg md:text-2xl px-3">
           Where I&apos;ve Worked
         </span>
         <div className="bg-gray-400 h-[0.2px] w-16 sm:w-44 md:w-80"></div>
@@ -115,32 +115,32 @@ const CompaniesBar = props => {
         <div className="flex flex-row md:flex-col">
           <CompanyButton
             ButtonOrderOfcompanyNameBackgroundColorGreen={0}
-            CompanyName="TrouveTavoie"
+            CompanyName="Cloud DX"
             BarPosition={-8}
             BarAvobePosition={1}
-            DescriptionJob="TrouveTavoie"
+            DescriptionJob="Cloud DX"
             CompanyNameBackgroundColorGreen={[true, false, false, false, false]}
             setDescriptionJob={props.setDescriptionJob}
           />
           <CompanyButton
             ButtonOrderOfcompanyNameBackgroundColorGreen={1}
-            CompanyName="FeverTokens"
+            CompanyName="Nevvon"
             BarPosition={36}
             BarAvobePosition={129}
-            DescriptionJob="FeverTokens"
+            DescriptionJob="Nevvon"
             CompanyNameBackgroundColorGreen={[false, true, false, false, false]}
             setDescriptionJob={props.setDescriptionJob}
           />
           <CompanyButton
             ButtonOrderOfcompanyNameBackgroundColorGreen={2}
-            CompanyName="IdealFresh"
+            CompanyName="Nevvon 1"
             BarPosition={80}
             BarAvobePosition={257}
-            DescriptionJob="IdealFresh"
+            DescriptionJob="Nevvon 1"
             CompanyNameBackgroundColorGreen={[false, false, true, false, false]}
             setDescriptionJob={props.setDescriptionJob}
           />
-          <CompanyButton
+          {/* <CompanyButton
             ButtonOrderOfcompanyNameBackgroundColorGreen={3}
             CompanyName="SuperBerry"
             BarPosition={122}
@@ -166,7 +166,7 @@ const CompaniesBar = props => {
             DescriptionJob="Fantasia"
             CompanyNameBackgroundColorGreen={[false, false, false, false, false, true]}
             setDescriptionJob={props.setDescriptionJob}
-          />
+          /> */}
         </div>
         <div className="block md:hidden w-[760px] h-0.5 rounded bg-gray-500">
           <motion.div animate={{ x: barAbovePosition }} className="w-[128px] h-0.5 rounded bg-AAsecondary"></motion.div>

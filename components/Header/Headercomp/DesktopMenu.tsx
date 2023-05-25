@@ -65,7 +65,7 @@ export default function DesktopMenu(props: { finishedLoading: boolean }) {
         className="text-AAsecondary"
       >
         <ReactScrollLink to="SomethingIveBuiltSection" spy={true} smooth={true} offset={-100} duration={200}>
-        &gt; 03. <span className="text-white  hover:cursor-pointer hover:text-AAsecondary duration-300">Work</span>
+        &gt; 03. <span className="text-white  hover:cursor-pointer hover:text-AAsecondary duration-300">Projects</span>
 
         </ReactScrollLink>
         
@@ -90,7 +90,7 @@ export default function DesktopMenu(props: { finishedLoading: boolean }) {
          &gt; 04. <span className="text-white  hover:cursor-pointer hover:text-AAsecondary duration-300">Contact</span>
         </ReactScrollLink>
       </motion.span>
-      <a href={"/resume.pdf"} target={"_blank"} rel="noreferrer">
+      <a href={"https://docs.google.com/document/d/1E4TdnjVs5oVecf597O_JbVMOTpVObCll/edit?usp=sharing&ouid=107318243930186771380&rtpof=true&sd=true"} target={"_blank"} rel="noreferrer">
       <motion.button
         initial={{
           y: -40,

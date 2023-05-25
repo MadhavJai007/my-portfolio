@@ -5,15 +5,23 @@ import { getTasksTextWithHighlightedKeyword } from "./taskAndType";
 export default function TrouveTavoie() {
   const tasks = [
     {
-      text: "Spearhead & implemented a new design user workflow system for the Frond-End Architecture of a NFT Marketplace.",
-      keywords: ["NFT Marketplace"],
+      text: "Collaborated in an agile team to develop the React Native app (android) for Cloud DX’s Vitaliti project.",
+      keywords: ["React Native"],
     },
     {
-      text: "Work with a variety of different languages, platforms, frameworks, and content management systems such as JavaScript, TypeScript, Next.js/React, AWS and Vercel.",
-      keywords: ["Next.js/React", "AWS", "Vercel"],
+      text: "Implemented data analytics features within the Android app to collect real-time, health related data from patients",
+      keywords: ["data analytics", "Android"],
     },
     {
-      text: "Interfaced with developers on a daily basis, providing technological expertise.",
+      text: "Quickly learnt about the codebase to troubleshoot persisting issues in order to meet functional requirements.",
+      keywords: [],
+    },
+    {
+      text: "Optimized data analytics’ accuracy of vital information displayed within the app",
+      keywords: [],
+    },
+    {
+      text: "Worked with the project lead to research and develop strategies to improve the app’s feature-set.",
       keywords: [],
     },
   ];
@@ -24,10 +32,10 @@ export default function TrouveTavoie() {
         <div className="flex flex-col spacey-y-2">
           {/* Title */}
           <span className="text-gray-100 sm:text-lg text-sm font-Arimo tracking-wide">
-            Software Engineer <span className="text-AAsecondary">@ Blockchain</span>
+            Application Developer <span className="text-AAsecondary">@ Cloud DX</span>
           </span>
           {/* Date */}
-          <span className="font-mono text-xs text-gray-500">Mars - August 2022</span>
+          <span className="font-mono text-xs text-gray-500">January - May 2022</span>
         </div>
         <div className="flex flex-col space-y-4 sm:text-sm text-xs">
           {/* Tasks Description 1 */}

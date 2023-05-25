@@ -5,16 +5,16 @@ import { getTasksTextWithHighlightedKeyword } from "./taskAndType";
 export default function IdealFresh() {
   const tasks = [
     {
-      text: "Designed and Built a Desktop app for IdealFresh that manage billings, client circumstances using Apache POI with Microsoft Office Excel.",
-      keywords: ["Apache POI"],
+      text: "Researched and learned new technologies and tools for project designs.",
+      keywords: ["project designs"],
     },
     {
-      text: "Creating customized scripts for pulling, managing and refactoring files from Clouds.",
-      keywords: ["scripts"],
+      text: "Designed and planned potential product’s design to meet functional and technical requirements.",
+      keywords: ["Designed", "functional", "technical requirements"],
     },
     {
-      text: "Daily communications and interactions with a non-developers to solve their problems by providing technological solutions and expertise.",
-      keywords: ["non-developers"],
+      text: "Developed and proposed early solutions with Python and Twilio.",
+      keywords: ["solutions", "Python", "Twilio"],
     },
   ];
   return (
@@ -23,7 +23,7 @@ export default function IdealFresh() {
         <div className="flex flex-col spacey-y-2">
           {/* Title */}
           <span className="text-gray-100 sm:text-lg text-sm font-Arimo tracking-wide">
-            Software Developer <span className="text-AAsecondary">@ JavaFX</span>
+            Research Assistant <span className="text-AAsecondary">@ Nevvon</span>
           </span>
           {/* Date */}
           <span className="font-mono text-xs text-gray-500">June - August 2021</span>

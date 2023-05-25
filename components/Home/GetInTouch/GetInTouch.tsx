@@ -1,5 +1,25 @@
 import React from "react";
 import ArrowIcon from "../../Icons/ArrowIcon";
+import GithubIcon from "../../Icons/GithubIcon";
+import LinkedinIcon from "../../Icons/LinkedinIcon";
+import InstagramIcon from "../../Icons/InstagramIcon";
+import YoutubeIcon from "../../Icons/YoutubeIcon";
+
+const IconsData = [
+  { href: "https://github.com/MadhavJai007", Icon: GithubIcon },
+  { href: "https://www.linkedin.com/in/madhav-jaisankar/", Icon: LinkedinIcon },
+  // { href: "https://www.instagram.com/titof_abdo/", Icon: InstagramIcon },
+  // { href: "https://www.youtube.com/@abdellatif_anaflous", Icon: YoutubeIcon },
+];
+
+const ClickableIcon = props => {
+  return (
+    <a href={props.href} className="" target={"_blank"} rel="noreferrer">
+      <props.Icon className={"w-5 h-5 text-gray-400 hover:text-AAsecondary fill-current hover:cursor-pointer"} />
+    </a>
+  );
+};
+
 export default function GetInTouch() {
   return (
     <div id="GetInTouchSection" data-aos="fade-up" className="flex flex-col space-y-4 w-full h-96 items-center bg-AAprimary">
@@ -18,15 +38,15 @@ export default function GetInTouch() {
       </div>
       {/* // ? Get In Touch */}
       <span className="text-gray-200 text-3xl sm:text-4xl font-bold tracking-wider opacity-85">
-        Get In Touch
+        Let's connect
       </span>
       <p className="flex font-Header tracking-wider text-gray-400 text-center px-6 sm:px-16 md:px-0 md:w-[600px]">
-        Although I&apos;m currently looking for any new opportunities, my inbox
-        is always open. Whether you have a question or just want to say hi, I&apos;ll
-        try my best to get back to you!
+        I&apos;m always looking for new opportunities and people to mee, so let's link up! 
+        <br className="md:block hidden" />
+        Even if you just want to say hello
       </p>
       <div className="pt-4">
-        <a href="mailto:abdellatif@anaflous.com" target={"_blank"} rel="noreferrer">
+        <a href="mailto:madhav.jaisankar@gmail.com" target={"_blank"} rel="noreferrer">
           <button
             className="font-mono text-sm text-AAsecondary border-AAsecondary 
                             px-8 py-4 border-[1.5px] rounded "
@@ -34,6 +54,11 @@ export default function GetInTouch() {
             Say Hello
           </button>
         </a>
+      </div>
+      <div className={`flex flex-row space-x-8 pt-3`}>
+        {IconsData.map((iconData, index) => {
+          return <ClickableIcon key={index} href={iconData.href} Icon={iconData.Icon} />;
+        })}
       </div>
     </div>
   );
