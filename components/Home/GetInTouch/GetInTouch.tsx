@@ -38,10 +38,10 @@ export default function GetInTouch() {
       </div>
       {/* // ? Get In Touch */}
       <span className="text-gray-200 text-3xl sm:text-4xl font-bold tracking-wider opacity-85">
-        Let's connect
+        Let&apos;s connect
       </span>
       <p className="flex font-Header tracking-wider text-gray-400 text-center px-6 sm:px-16 md:px-0 md:w-[600px]">
-        I&apos;m always looking for new opportunities and people to mee, so let's link up! 
+        I&apos;m always looking for new opportunities and people to mee, so let&apos;s link up! 
         <br className="md:block hidden" />
         Even if you just want to say hello
       </p>

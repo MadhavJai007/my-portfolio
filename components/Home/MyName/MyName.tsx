@@ -104,7 +104,7 @@ export default function MyName(props: { finishedLoading: boolean }) {
               spy={true} smooth={true} offset={-100} duration={200}
               className="bg-AAprimary text-AAsecondary border rounded px-1 sm:px-8 py-3 sm:py-4 border-AAsecondary"
             >
-              Let's connect!
+              Let&apos;s connect!
             </ReactScrollLink>
             
           </motion.div>

@@ -29,15 +29,15 @@ export default function AboutMe(props) {
           <div className="w-full md:w-7/12 space-y-4 sm:text-base text-sm ">
             <div className="font-Header ">
               <span className="text-gray-400  tracking-wide">
-                {/* I'm a software developer with <span className="text-AAsecondary">1+ years</span> of Agile development experience buiilding Full Stack Web and Mobile solutions.
+                {/* I&apos;m a software developer with <span className="text-AAsecondary">1+ years</span> of Agile development experience buiilding Full Stack Web and Mobile solutions.
                 I recently graduated in 2022 with a <span className="text-AAsecondary">Bachelors in Computer Science from Sheridan College</span> */}
-                With <span className="text-AAsecondary">1.5 years</span> of experience and a recent graduate with a Bachelors of Comp. Science @ Sheridan College, I've grown, developed and dedicated my ability and skills in the software development industry as a Full Stack Web / Mobile developer. 
+                With <span className="text-AAsecondary">1.5 years</span> of experience and a recent graduate with a Bachelors of Comp. Science @ Sheridan College, I&apos;ve grown, developed and dedicated my ability and skills in the software development industry as a Full Stack Web / Mobile developer. 
                 
               </span>
               <br className="md:block hidden" />
               <br />
               <span className="text-gray-400  tracking-wide">
-                I've dedicated myself to creating and building full stack solutions. In the process, I've honed myself in <span className="text-AAsecondary">web and mobile development</span> skills and technologies to build full stack solutions in an Agile team environment. 
+                I&apos;ve dedicated myself to creating and building full stack solutions. In the process, I&apos;ve honed myself in <span className="text-AAsecondary">web and mobile development</span> skills and technologies to build full stack solutions in an Agile team environment. 
               </span>
               {/* <span className="text-gray-400  tracking-wide">
                 Hello! My name is Abdellatif and I enjoy solving problems and creating codes that live on the internet.
