@@ -132,7 +132,7 @@ export default function SomethingIveBuilt() {
               <div className="relative w-full h-full">
                 <div className="absolute w-full h-full bg-AAsecondary opacity-10 z-10"></div>
                 <div className="absolute w-full h-full bg-AAprimary opacity-80 z-10"></div>
-                <Img src={"/typing.png"} alt={"Project Screen shot"} className={`w-full h-full `} />
+                {/* <Img src={"/typing.png"} alt={"Project Screen shot"} className={`w-full h-full `} /> */}
               </div>
             </div>
 
