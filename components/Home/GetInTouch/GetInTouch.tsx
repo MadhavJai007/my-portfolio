@@ -41,7 +41,7 @@ export default function GetInTouch() {
         Let&apos;s connect
       </span>
       <p className="flex font-Header tracking-wider text-gray-400 text-center px-6 sm:px-16 md:px-0 md:w-[600px]">
-        I&apos;m always looking for new opportunities and people to mee, so let&apos;s link up! 
+        I&apos;m always looking for new opportunities and people to meet, so let&apos;s link up! 
         <br className="md:block hidden" />
         Even if you just want to say hello
       </p>
