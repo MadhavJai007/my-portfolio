@@ -79,7 +79,7 @@ export default function MyName(props: { finishedLoading: boolean }) {
             {/* <a href={"https://docs.google.com/document/d/1E4TdnjVs5oVecf597O_JbVMOTpVObCll/edit?usp=sharing&ouid=107318243930186771380&rtpof=true&sd=trues"} target={"_blank"} rel="noreferrer"> */}
 
             <a
-              href={"https://docs.google.com/document/d/1E4TdnjVs5oVecf597O_JbVMOTpVObCll/edit?usp=sharing&ouid=107318243930186771380&rtpof=true&sd=trues"}
+              href={"https://drive.google.com/file/d/1AYqI_2-_V3lxneXoZaBpb6FgSqdKLx6x/view?usp=sharing"}
               className="bg-AAprimary text-AAsecondary border rounded px-1 sm:px-8 py-3 sm:py-4 border-AAsecondary"
               target={"_blank"} rel="noreferrer"
             >

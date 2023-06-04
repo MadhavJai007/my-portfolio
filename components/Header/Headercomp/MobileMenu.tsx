@@ -89,7 +89,7 @@ const MobileMenu = props => {
               Contact
             </span>
           </Link>
-          <a href={"https://docs.google.com/document/d/1E4TdnjVs5oVecf597O_JbVMOTpVObCll/edit?usp=sharing&ouid=107318243930186771380&rtpof=true&sd=true"} target={"_blank"} rel="noreferrer">
+          <a href={"https://drive.google.com/file/d/1AYqI_2-_V3lxneXoZaBpb6FgSqdKLx6x/view?usp=sharing"} target={"_blank"} rel="noreferrer">
             <button
               className="rounded border font-Text2  border-AAsecondary
            hover:bg-ResumeButtonHover py-2 sm:py-4 px-5 sm:px-10 text-xs text-AAsecondary"

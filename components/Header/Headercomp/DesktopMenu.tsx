@@ -90,7 +90,7 @@ export default function DesktopMenu(props: { finishedLoading: boolean }) {
          &gt; 04. <span className="text-white  hover:cursor-pointer hover:text-AAsecondary duration-300">Contact</span>
         </ReactScrollLink>
       </motion.span>
-      <a href={"https://docs.google.com/document/d/1E4TdnjVs5oVecf597O_JbVMOTpVObCll/edit?usp=sharing&ouid=107318243930186771380&rtpof=true&sd=true"} target={"_blank"} rel="noreferrer">
+      <a href={"https://drive.google.com/file/d/1AYqI_2-_V3lxneXoZaBpb6FgSqdKLx6x/view?usp=sharing"} target={"_blank"} rel="noreferrer">
       <motion.button
         initial={{
           y: -40,
