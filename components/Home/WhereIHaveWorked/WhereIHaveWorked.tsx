@@ -114,6 +114,15 @@ const CompaniesBar = props => {
       <div className="flex flex-col md:order-2 order-1 space-y-1 pl-8 md:pl-0 ">
         <div className="flex flex-row md:flex-col">
           <CompanyButton
+            ButtonOrderOfcompanyNameBackgroundColorGreen={3}
+            CompanyName="Ontomesh"
+            BarPosition={80}
+            BarAvobePosition={257}
+            DescriptionJob="Ontomesh"
+            CompanyNameBackgroundColorGreen={[false, false, false, true, false]}
+            setDescriptionJob={props.setDescriptionJob}
+          />
+          <CompanyButton
             ButtonOrderOfcompanyNameBackgroundColorGreen={0}
             CompanyName="Cloud DX"
             BarPosition={-8}
@@ -140,15 +149,7 @@ const CompaniesBar = props => {
             CompanyNameBackgroundColorGreen={[false, false, true, false, false]}
             setDescriptionJob={props.setDescriptionJob}
           />
-          <CompanyButton
-            ButtonOrderOfcompanyNameBackgroundColorGreen={3}
-            CompanyName="Ontomesh"
-            BarPosition={80}
-            BarAvobePosition={257}
-            DescriptionJob="Ontomesh"
-            CompanyNameBackgroundColorGreen={[false, false, false, true, false]}
-            setDescriptionJob={props.setDescriptionJob}
-          />
+          
           {/* <CompanyButton
             ButtonOrderOfcompanyNameBackgroundColorGreen={3}
             CompanyName="SuperBerry"
