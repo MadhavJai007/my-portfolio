@@ -36,14 +36,14 @@ export default function SomethingIveBuilt() {
             className="hidden bg-AAprimary z-10  py-4 
           absolute md:grid grid-cols-12 w-full h-full  content-center "
           >
-            <div className="relative rounded w-full h-full col-start-6 col-span-7 ">
+            <div className="relative rounded w-full h-full col-start-8 col-span-7 ">
               {/* <a href={"https://ubiquitous-bublanina-da84ec.netlify.app/"} target="_blank" rel="noreferrer">
                 <div
                   className="absolute w-full h-full rounded bg-AAprimary 
            transition-opacity opacity-50 hover:opacity-0 hover:cursor-pointer duration-300"
                 ></div>
               </a> */}
-              <Img src={"/todo-banner.png"} alt={"Project Screen shot"} className={`w-full rounded h-full `} />
+              <Img src={"/todo-banner.png"} alt={"Project Screen shot"} className={`w-auto rounded h-auto`} />
             </div>
           </div>
 
@@ -119,7 +119,7 @@ export default function SomethingIveBuilt() {
                 ></div>
               </Link> */}
 
-              <Img src={"/reddl-banner.png"} alt={"Project Screen shot"} className={`w-full rounded h-full `} />
+              <Img src={"/reddl-banner.png"} alt={"Project Screen shot"} className={`w-5/6 rounded h-auto `} />
             </div>
           </div>
 
@@ -183,14 +183,14 @@ export default function SomethingIveBuilt() {
             className="hidden bg-AAprimary z-10  py-4 
           absolute md:grid grid-cols-12 w-full h-full  content-center "
           >
-            <div className="relative rounded w-full h-full col-start-6 col-span-7 ">
+            <div className="relative rounded w-full h-full col-start-8 col-span-7 ">
               {/* <a href={"https://ubiquitous-bublanina-da84ec.netlify.app/"} target="_blank" rel="noreferrer">
                 <div
                   className="absolute w-full h-full rounded bg-AAprimary 
            transition-opacity opacity-50 hover:opacity-0 hover:cursor-pointer duration-300"
                 ></div>
               </a> */}
-              <Img src={"/swiftly-banner.png"} alt={"Project Screen shot"} className={`w-full rounded h-full `} />
+              <Img src={"/swiftly-banner.png"} alt={"Project Screen shot"} className={`w-5/6 rounded h-full `} />
             </div>
           </div>
 

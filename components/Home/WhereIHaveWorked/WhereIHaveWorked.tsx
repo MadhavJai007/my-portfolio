@@ -17,11 +17,11 @@ export default function WhereIHaveWorked() {
         return <TrouveTavoie />;
       case "Nevvon":
         return <FeverTokens />;
-      case "Nevvon 1":
+      case "Nevvon.":
         return <IdealFresh />;
       case "Advanced Agro Management":
         return <AdvancedAgroManagement />;
-      case "Fantasia":
+      case "Ontomesh":
         return <Fantasia />;
       case "SuperBerry":
         return <SuperBerry />;
@@ -133,11 +133,20 @@ const CompaniesBar = props => {
           />
           <CompanyButton
             ButtonOrderOfcompanyNameBackgroundColorGreen={2}
-            CompanyName="Nevvon 1"
+            CompanyName="Nevvon."
             BarPosition={80}
             BarAvobePosition={257}
-            DescriptionJob="Nevvon 1"
+            DescriptionJob="Nevvon."
             CompanyNameBackgroundColorGreen={[false, false, true, false, false]}
+            setDescriptionJob={props.setDescriptionJob}
+          />
+          <CompanyButton
+            ButtonOrderOfcompanyNameBackgroundColorGreen={3}
+            CompanyName="Ontomesh"
+            BarPosition={80}
+            BarAvobePosition={257}
+            DescriptionJob="Ontomesh"
+            CompanyNameBackgroundColorGreen={[false, false, false, true, false]}
             setDescriptionJob={props.setDescriptionJob}
           />
           {/* <CompanyButton
