@@ -83,7 +83,7 @@ export default function MyName(props: { finishedLoading: boolean }) {
               className="bg-AAprimary text-AAsecondary border rounded px-1 sm:px-8 py-3 sm:py-4 border-AAsecondary"
               target={"_blank"} rel="noreferrer"
             >
-              Check out my resume!
+              Check out my resume
             </a>
             {/* </a> */}
           </motion.div>
@@ -104,7 +104,7 @@ export default function MyName(props: { finishedLoading: boolean }) {
               spy={true} smooth={true} offset={-100} duration={200}
               className="bg-AAprimary text-AAsecondary border rounded px-1 sm:px-8 py-3 sm:py-4 border-AAsecondary"
             >
-              Let&apos;s connect!
+              Let&apos;s connect
             </ReactScrollLink>
             
           </motion.div>

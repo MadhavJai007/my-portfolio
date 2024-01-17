@@ -3,8 +3,8 @@ import Img from "../../../components/smallComp/image/Img";
 import ArrowIcon from "../../../components/Icons/ArrowIcon";
 export default function AboutMe(props) {
   const technologies = [
-    ["React.js", "Node.js","Next.js","JavaScript", "Python"],
-    ["AWS suite", "Google Cloud Services","Kotlin", "Swift", "MySQL"],
+    ["React.js", "Node.js","Next.js","JavaScript", "Python", "Docker"],
+    ["AWS", "Google Cloud Services","Kotlin", "Swift", "MySQL"],
   ];
   return (
     <div id="aboutSection" data-aos="fade-up" className="snap-start flex flex-col  items-center py-20 bg-AAprimary">
@@ -31,19 +31,16 @@ export default function AboutMe(props) {
               <span className="text-gray-400  tracking-wide">
                 {/* I&apos;m a software developer with <span className="text-AAsecondary">1+ years</span> of Agile development experience buiilding Full Stack Web and Mobile solutions.
                 I recently graduated in 2022 with a <span className="text-AAsecondary">Bachelors in Computer Science from Sheridan College</span> */}
-                With <span className="text-AAsecondary">1.5 years</span> of experience and a recent graduate with a Bachelors of Comp. Science @ Sheridan College, I&apos;ve grown, developed and dedicated my ability and skills in the software development industry as a Full Stack Web / Mobile developer. 
+                I am a Full Stack software engineer and I have spent 2 years as one developing responsive <span className="text-AAsecondary">Web applications</span> and <span className="text-AAsecondary">Mobile applications</span> using a variety of technology stacks.
+
+
+            
                 
               </span>
               <br className="md:block hidden" />
-              <br />
-              <span className="text-gray-400  tracking-wide">
-                I&apos;ve dedicated myself to creating and building full stack solutions. In the process, I&apos;ve honed myself in <span className="text-AAsecondary">web and mobile development</span> skills and technologies to build full stack solutions in an Agile team environment. 
-              </span>
+              {/* <br /> */}
               {/* <span className="text-gray-400  tracking-wide">
-                Hello! My name is Abdellatif and I enjoy solving problems and creating codes that live on the internet.
-                My interest in computer science started back in 2009 when I decided to try learning{" "}
-                <span className="text-AAsecondary">Ethical Hacking</span> using BackTrack OS — it turns out programming
-                skills are essential to achieve that, my journey with programming started from that time!
+                I&apos;ve dedicated myself to creating and building full stack solutions. In the process, I&apos;ve honed myself in <span className="text-AAsecondary">web and mobile development</span> skills and technologies to build full stack solutions in an Agile team environment. 
               </span> */}
             </div>
             {/* <div className="font-Header tracking-wide">
@@ -58,11 +55,12 @@ export default function AboutMe(props) {
                 <span className="text-AAsecondary">Smart Contracts</span> with Hardhat.
               </span>
             </div> */}
-
+            
             <div className="font-Header tracking-wide">
               <span className="text-gray-400  ">My tech stack includes but is not limited:</span>
             </div>
-            <div className="font-Header tracking-wide flex flex-row space-x-16">
+            
+            <div className="font-Header tracking-wide flex flex-row space-x-16 mt-5">
               <div className="flex flex-row space-x-2 items-center">
                 <div className="flex flex-col space-y-4 sm:text-base text-sm">
                   {technologies[0].map((tech, index) => {

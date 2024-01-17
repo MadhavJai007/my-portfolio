@@ -26,14 +26,23 @@ export default function Fotter(props: { githubUrl: string; hideSocialsInDesktop:
           return <ClickableIcon key={index} href={iconData.href} Icon={iconData.Icon} />;
         })}
       </div>
+      <div className="flex flex-col items-center space-y-2 text-gray-400">
+        <small className="group-hover:text-AAsecondary sm:text-sm text-xs" >
+          <span className="copyleft"></span> 2024 | Madhav Jaisankar 
+        </small>
+        <a href="https://github.com/bchiang7/v4">
+          <small className="hover:text-AAsecondary">
+            Design Inspired by Brittany Chiang 
+          </small>
+        </a>
+      </div>
+      
       <a href={props.githubUrl} className="" target={"_blank"} rel="noreferrer">
         <div
           className="group flex flex-col font-mono justify-center items-center  text-gray-400 
     text-sm  space-y-2  "
         >
-          <small className="group-hover:text-AAsecondary sm:text-sm text-xs" >
-            <span className="copyleft">&copy;</span> Copyleft {new Date().getFullYear()} 
-          </small>
+          
           {/* <span className="group-hover:text-AAsecondary sm:text-sm text-xs">
             Designed & Built by Anaflous Abdellatif
           </span> */}
