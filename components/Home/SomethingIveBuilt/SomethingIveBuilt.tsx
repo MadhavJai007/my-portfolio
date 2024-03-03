@@ -68,7 +68,7 @@ export default function SomethingIveBuilt() {
                 <span className="text-AAsecondary text-base">Recent Project</span>
                 <Link href={"#"}>
                   <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
-                    Writer's blog
+                    Writer&apos;s blog
                   </span>
                 </Link>
               </div>
