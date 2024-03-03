@@ -57,7 +57,7 @@ export default function AboutMe(props) {
             </div> */}
             
             <div className="font-Header tracking-wide">
-              <span className="text-gray-400  ">My tech stack includes but is not limited:</span>
+              <span className="text-gray-400  ">My tech stack includes but is not limited to:</span>
             </div>
             
             <div className="font-Header tracking-wide flex flex-row space-x-16 mt-5">
